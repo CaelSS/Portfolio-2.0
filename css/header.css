@@ -33,8 +33,7 @@
 
         flex-direction: column; /* como o header ja é flex, so digo pra ele virar coluna qnd a tela diminuir a tal ponto especificado no breakpoint*/
         gap: 45px;
-        padding: 1rem;
-        
+        padding: 1rem; 
         a{
             border-radius: 8px;
             background-color: #f5f5f5;
