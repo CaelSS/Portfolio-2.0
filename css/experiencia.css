@@ -2,11 +2,12 @@
   max-width: 1200px;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  gap: 100px;
   padding: 40px 20px;
   margin: 0 auto;
-  gap: 100px;
 
   .titulo-exp {
+    max-height: auto;
     font-size: 90px;
     word-break: break-all;
     text-transform: uppercase;
@@ -14,25 +15,26 @@
     color: #c3c3c3;
   }
 
-  .exe-projetos {
-    margin-top: 20px; /*pra o texto p do lado direito alinhar com o h2 da equerda*/
-  }
-  .descricao-proj {
-    font-size: 20px;
-  }
-  .projeto {
-    gap: 1rem;
-    margin-top: 20px;
+  .projetos {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 20px;
-    background-color: #f8f3f3;
+    gap: 20px;
+
+    .projeto {
+      padding: 20px;
+      display: flex;
+      background-color: #f3f3f3;
+      gap: 60px;
+    }
 
     ul {
       display: flex;
-      gap: 10px;
+      gap: 5px;
 
       li {
+        margin-top: 10px;
+        background-color: white;
+        padding: 5px;
+        border-radius: 4px;
       }
     }
   }
