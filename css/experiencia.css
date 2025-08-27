@@ -49,10 +49,33 @@
       gap: 5px;
 
       li {
-        background-color: white;
-        padding: 5px;
-        border-radius: 4px;
+        display: flex;
+        gap: 5px;
+
+        a{
+
+          text-decoration: none;
+          background-color: white;
+          border-radius: 4px;
+          
+          color: black;
+          padding: 5px;
+          margin: 0px;
+          transition: background-color 0.2s ease;
+
+        }
+
+        a:hover{
+
+          background-color: greenyellow;
+          
+
+        }
       }
+
+      
     }
+
+    
   }
 }
