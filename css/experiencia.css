@@ -18,20 +18,34 @@
   .projetos {
     display: grid;
     gap: 20px;
+    position: relative;
 
     .projeto {
       padding: 20px;
       display: flex;
       background-color: #f3f3f3;
+      border-radius: 4px;
       gap: 60px;
+
+      h3 {
+        margin-bottom: 15px;
+      }
+    }
+
+    .projeto::before{
+      content: "";
+      width: 10px;
+      height: 5px;
+      background-color: greenyellow;
+      position: absolute;
     }
 
     ul {
       display: flex;
+      flex-wrap: wrap;
       gap: 5px;
 
       li {
-        margin-top: 10px;
         background-color: white;
         padding: 5px;
         border-radius: 4px;
