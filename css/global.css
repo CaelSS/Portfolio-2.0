@@ -1,24 +1,38 @@
 /*aqui é iniciado as estilizacoes padrao de um projeto. Reset*/
 
-body{
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6; /* ✅ Melhora legibilidade */
+}
+
+body,
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
 }
 
 h1,
 h2,
 h3,
-p{
-    margin: 0px;
+p {
+  margin: 0px;
 }
 
-ul{
-    margin: 0px;
-    padding: 0px;
-    list-style: none;
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
 }
 
-img{
-    max-width: 100%;
-    display: block;
+img {
+  max-width: 100%;
+  display: block;
 }

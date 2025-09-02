@@ -1,0 +1,66 @@
+.formacao {
+  background-color: #131313;
+  max-width: 1200px;
+  padding: 40px 20px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  margin: 0 auto;
+
+  .formacao-descricao {
+    color: #c6c6c6;
+    font-size: 20px;
+
+    strong {
+      color: white;
+    }
+  }
+
+  .titulo-formacao {
+    max-height: auto;
+    font-size: 90px;
+    word-break: break-all;
+    text-transform: uppercase;
+    font-family: bold;
+    color: black;
+  }
+
+  .cursos {
+    margin-top: 30px;
+    display: grid;
+    gap: 30px;
+
+    .form-cards {
+      display: flex;
+      gap: 40px;
+
+      .cards {
+        display: grid;
+        grid-row: row;
+        background-color: black;
+        border-radius: 5px;
+        width: 100px;
+        padding: 20px 80px 20px 15px;
+        gap: 10px;
+
+        .grau-form {
+          color: #c6c6c6;
+        }
+
+        p {
+          color: white;
+          font-family: bold;
+        }
+
+        .instituicao{
+          margin-top: 30px;
+          color: #c6c6c6;
+        }
+      }
+    }
+  }
+}
+
+.bg-collor {
+  background-color: #131313;
+}
