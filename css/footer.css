@@ -1,0 +1,47 @@
+.contato-container {
+    background-color: black;
+    height: 400px;
+    align-content: center;
+   
+
+
+
+    .contato {
+        background-color: black;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px 40px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 100px;
+        
+
+        .descricao-contato {
+
+            color: #8f8f8f;
+        }
+
+        ul {
+            display: grid;
+
+            li {
+                font-size: 1.255rem;
+                color: aliceblue;
+            }
+
+        }
+
+        .contato-direitos {
+            color: #8f8f8f;
+        }
+    }
+}
+
+@media (max-width: 700px){
+
+    .contato-container .contato {
+        text-align: center;
+        gap: 50px;
+        grid-template-columns: 1fr;
+    }
+}
